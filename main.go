@@ -13,8 +13,8 @@ var ctx = context.Background()
 
 func main() {
 	rdb := redis.NewClient(&redis.Options{
-		Addr:     "localhost:6379", // Redis server address
-		Password: "password",       // No password set
+		Addr:     "172.19.255.202:4899", // Redis server address
+		Password: "aas",                 // No password set
 	})
 
 	// Ping Redis to check the connection
